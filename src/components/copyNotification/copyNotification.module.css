@@ -1,0 +1,10 @@
+.copyNotification{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color: white;
+    padding: 6px;
+    font-weight: 700;
+    border-radius: 6px;
+    background-color: rgb(16,185,129);
+}

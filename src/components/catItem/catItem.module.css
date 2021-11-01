@@ -1,0 +1,46 @@
+.catItem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 0;
+    border: 1px solid #8e8e8e;
+    max-width: 576px;
+}
+
+.catItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.catItemBottom{
+    background: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.catItemTags{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    gap: 12px 6px;
+}
+
+.catItemButtons{
+    align-items: center;
+    display: flex;
+}
+
+.catItemButtons button{
+    margin: 0 6px;
+}
+
+.isNotLoaded{
+    display: none;
+}
+
+.loaded{
+    display: block;
+}
